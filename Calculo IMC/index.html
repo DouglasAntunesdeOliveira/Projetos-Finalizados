@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <head> <!--Cabeçalho-->
+    </head>
+    <section> <!--Seção do corpo principal-->
+
+    <h1> Calculo IMC </h1>
+
+    <table id="tabela">
+        <th id="th">IMC</th>
+        <th id="th">Resultado</th>
+
+    <tr>
+        <td>Menos que 18.5</td> 
+        <td>Abaixo do peso</td>
+    </tr>
+
+    <tr>
+        <td>Entre 18.5 e 24.9</td> 
+        <td>Peso Normal</td>
+    </tr>
+
+    <tr>
+        <td>Entre 25 e 29.9</td> 
+        <td>Sobrepeso</td>
+    </tr>
+
+    <tr>
+        <td>Entre 30 e 34.9</td> 
+        <td>Obesidade Grau 1</td>
+    </tr>
+
+    <tr>
+        <td>Entre 35 e 39.9</td> 
+        <td>Obesidade Grau 2</td>
+    </tr>
+
+    <tr>
+        <td>Mais do que 40</td> 
+        <td>Obesidade Grau 3</td>
+    </tr>
+
+    </table>
+
+    <form>
+        Peso:
+        <input type="number" id="peso">
+        Autura:
+        <input type="number" id="altura">
+    </form>
+    <input type="button" value="enviar" id="button" onclick="enviar()">
+
+    <p id="res">
+        
+    </p>
+
+    </section>
+
+    <footer> <!--Rodapé-->
+
+    </footer>
+    <script src="javascrio.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+        <!--<form action="">
+            <label for="input-01">Input #01</label>
+            <input type="text" name="input-01" id="">
+
+            <label for="input-02">Input #02</label>
+            <input type="password" name="input-02" id="">
+
+            <label for="input-03">Input #03</label>
+            <input type="email" name="input-03" id="">
+
+            <label for="input-04">Input #04</label>
+            <input type="number" name="input-04" id="">
+
+            <button>Enviar</button>
+
+
+            CSS 
+
+            body{
+    margin: 0;
+    padding: 0;
+    background: rgb(24, 113, 133);
+    font-size: 1.0em;
+    line-height: 1.2em;
+}
+
+.container{
+    max-width: 650px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+form input, form label, form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input{
+    font-size: 15px;
+    height: 30px;
+    padding: 0 5px ;
+    border-radius: 10px;
+    
+}
+
+form input:focus{
+    outline: 1px solid rgb(2, 52, 63);
+}
+
+form button{
+    border: none;
+    background: rgb(1, 125, 153);
+    color: whitesmoke;
+    font-size: 18px;
+    padding: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+form button:hover{
+    background: cadetblue;
+}
+
+
+
+
+
+
+
+        </form>-->

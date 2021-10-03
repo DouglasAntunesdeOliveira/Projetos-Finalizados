@@ -1,0 +1,30 @@
+body{
+    background: rgba(3, 98, 187, 0.65);
+    font: normal 15pt Arial;
+}
+
+header{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+section{
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.335);
+    padding: 15px; /**O preenchimento é usado para criar espaço ao redor do conteúdo de um elemento**/
+    
+    
+}
+
+
+footer{
+    margin: auto;
+    text-align: center;
+    font-style: italic;
+    color: white;
+    
+
+}
